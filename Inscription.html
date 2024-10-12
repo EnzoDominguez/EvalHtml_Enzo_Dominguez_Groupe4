@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Inscriptionstyle.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <header class="d-flex justify-content-between align-item-center colorsegmentheader">
+            <h1 class="couleurtxt">Finance on KLM</h1>
+            <img class="align-item-center" src="Images Video/Logo.png" alt="" id="logoprincipal">
+            <nav class="d-flex justify-content-between ">
+                <ul class="d-flex">
+                    <a href="Accueil.html" target="_blank">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="Inscription.html">Inscription</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <section class="d-flex justify-content-center bgcolor ">
+                <div class="d-flex w-70">
+                    <div class="d-flex flex-colum couleurtxt ">
+
+                        <h1>Pourquoi pas vous ?</h1>
+                        <p><b>Découvrez le potentiel incroyable de la bourse avec notre formation exclusive sur KLM !
+                                Que vous soyez débutant ou déjà initié, cette formation est conçue pour vous aider à
+                                maîtriser les stratégies de trading et à comprendre les marchés financiers. <br>Grâce à
+                                des
+                                cours interactifs et des études de cas pratiques, vous apprendrez à prendre des
+                                décisions éclairées et à optimiser vos investissements. <br>
+
+                                Inscrivez-vous dès maintenant pour bénéficier de conseils d'experts et d'un
+                                accompagnement personnalisé. En rejoignant notre programme, vous aurez accès à des
+                                ressources exclusives, des analyses de marché en temps réel et une communauté dynamique
+                                d'apprenants. Ne laissez pas passer cette opportunité de transformer votre avenir
+                                financier ! <br>
+
+                                Investir en vous-même est le meilleur des investissements. Réservez votre place
+                                aujourd'hui et préparez-vous à conquérir le monde de la bourse avec KLM. <br>Les places
+                                sont
+                                limitées, alors agissez vite !
+                            </b></p>
+                    </div>
+                </div>
+            </section>
+            <section class="d-flex flex-colum just">
+                <h2 class="d-flex justify-content-center"> Inscription détaillée</h2>
+                <form class="d-flex flex-colum align-item-center">
+                    <div class="d-flex flex-colum mariginquestion justify-content-center">
+                        <label for="firstName">Votre prénom :</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Renseignez votre prénom"
+                            required>
+                        <br>
+                        <br>
+                        <label for="firstName">Nom de Famille :</label>
+                        <input type="text" name="firstName" id="firstName"
+                            placeholder="Renseignez votre Nom de Famille">
+                        <br>
+                        <br>
+
+                        <label for="date">Votre date de naissance :</label>
+                        <input type="date" name="date" id="date" required>
+                        <br>
+                        <br>
+
+                        <label for="email">Votre emai :</label>
+                        <input type="email" name="email" id="email" placeholder="Renseignez votre email" required>
+                        <br>
+                        <br>
+                        <label for="password">Votre mot de passe :</label>
+                        <input type="password" name="password" id="password" placeholder="Renseignez votre mot de passe"
+                            required>
+                        <br>
+                        <br>
+                        <label for="tel">Votre numéro de téléphone :</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Renseignez votre téléphone" required>
+                        <br>
+                        <br>
+                        <label for="sexe">Votre sexe</label>
+                        <input type="radio" name="sexe" id="sexeM" value="M"> Homme
+                        <input type="radio" name="sexe" id="sexef" value="F"> femmme
+                        <input type="radio" name="sexe" id="sexenb" value="nb">Non binaire
+                        <input type="radio" name="sexe" id="sexeoth" value="oth">Autre
+                    </div>
+                    <br>
+                    <br>
+                    <h2 class="d-flex justify-content-center"> Formation</h2>
+                    <div class="d-flex flex-colum mariginquestion justify-content-center">
+                        <label for="size">Votre Nombre d'année professionel :</label>
+                        <input type="number" name="size" id="size"
+                            placeholder="Renseignez vos nombre d'année d'experience professionel" required>
+                        <br>
+                        <br>
+                        <label for="profilePicture" required>Votre photo pour le badge:</label>
+                        <input type="file" name="profilePicture" id="profilePicture" required>
+                        <br>
+                        <br>
+                        <label for="formation">Formation Possible</label>
+                        <select name="formation" required id="formation">
+                            <option value="">Sélectionnez</option>
+                            <option value="initiation">Initiation à la Bourse</option>
+                            <option value="technique_avancée">Analyse Technique Avancée</option>
+                            <option value="gestion_risque">Gestion des Risques</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="checkbox">Votre objectif</label>
+                        <Input type="checkbox" name="objectif_court_terme" /> Objectifs à court terme (moins de 1 an)
+                        <Input type="checkbox" name="objectif_long_terme" /> Objectifs à long terme (plus de 5 ans)
+                        <Input type="checkbox" name="retirement_plan" /> Planification de la retraite
+                        <br>
+                        <br>
+                        <label for="experience">Votre expérience</label>
+                        <select name="experience" required>
+                            <option value="">Sélectionnez</option>
+                            <option value="debutant">Débutant</option>
+                            <option value="intermediaire">Intermédiaire</option>
+                            <option value="avance">Avancé</option>
+                        </select>
+                        <br>
+                        <br>    
+                        <label for="paiement">Mode de paiement</label>
+                        <select name="paiement" required id="paiement">
+                            <option value="">Sélectionnez</option>
+                            <option value="carte">Carte de crédit/débit</option>
+                            <option value="paypal">PayPal</option>
+                        </select>
+
+                        <br>
+                        <br>
+                        <label for="submit">Une fois terminer cliquer ici</label>
+                        <input type="submit" id="submit">
+
+                </form>
+            </section>
+        </main>
+
+    </body>
+
+</html>
